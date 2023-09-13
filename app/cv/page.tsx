@@ -12,9 +12,9 @@ export default function CV() {
       <hr className="border-skin-line" />
       <ProfileSection />
       <hr className="border-skin-line" />
-      <KeySkillsVariantTwo />
+      <KeySkills />
       <hr className="border-skin-line" />
-      <WorkExperienceVariantTwo />
+      <WorkExperience />
       <hr className="border-skin-line" />
       <Education />
     </div>
@@ -55,12 +55,12 @@ const ProfileSection = () => {
   );
 };
 
-const KeySkillsVariantTwo = () => {
+const KeySkills = () => {
   return (
     <div>
       <h1 className="text-xl font-semibold capitalize">Key Skills</h1>
       <div className="mt-2">
-        {KeySkillsData.skillVariantTwo.map((element, index) => {
+        {KeySkillsData.skills.map((element, index) => {
           return (
             <IndividualAccordion
               key={index}
@@ -136,97 +136,12 @@ const IndividualAccordion = ({
   );
 };
 
-const KeySkills = () => {
-  return (
-    <div>
-      <h1 className="text-xl font-semibold capitalize">Key Skills</h1>
-      <ul>
-        {KeySkillsData.skills.map((element, index) => {
-          switch (element.indent) {
-            case 0:
-              return (
-                <li className="text-sm font-bold" key={index}>
-                  - {element.skill}
-                </li>
-              );
-            case 1:
-              return (
-                <li className="text-sm ml-7" key={index}>
-                  o {element.skill}
-                </li>
-              );
-            case 2:
-              return (
-                <li className="text-sm ml-14" key={index}>
-                  ▪ {element.skill}
-                </li>
-              );
-            default:
-              return <li key={index}>- {element.skill}</li>;
-          }
-        })}
-      </ul>
-    </div>
-  );
-};
-
 const WorkExperience = () => {
   return (
     <div>
       <h1 className="text-xl font-semibold capitalize">Work Experience</h1>
-      {WorkExperienceData.workExperience.map((element, index) => {
-        return (
-          <div className="mb-4" key={index}>
-            <div className="flex md:flex-row md:justify-between flex-col">
-              <h2 className="text-md font-semibold capitalize">
-                {element.employerName}
-              </h2>
-              <p className="text-sm capitalize">
-                {element.location} ({element.dateRange})
-              </p>
-            </div>
-            <h2 className="text-md font-semibold capitalize">
-              {element.jobTitle}
-            </h2>
-            <ul>
-              {element.keyPoints.map((element, index) => {
-                switch (element.indent) {
-                  case 0:
-                    return (
-                      <li className="text-sm ml-7" key={index}>
-                        - {element.point}
-                      </li>
-                    );
-                  case 1:
-                    return (
-                      <li className="text-sm ml-14" key={index}>
-                        o {element.point}
-                      </li>
-                    );
-                  case 2:
-                    return (
-                      <li className="text-sm ml-14" key={index}>
-                        ▪ {element.point}
-                      </li>
-                    );
-                  default:
-                    return <li key={index}>- {element.point}</li>;
-                }
-              })}
-            </ul>
-          </div>
-        );
-      })}
-    </div>
-  );
-};
-
-const WorkExperienceVariantTwo = () => {
-  return (
-    <div>
-      <h1 className="text-xl font-semibold capitalize">Work Experience</h1>
       <ol className="relative border-l mt-2">
-        {WorkExperienceData.workExperienceVariantTwo.map((element, index) => {
+        {WorkExperienceData.workExperience.map((element, index) => {
           return (
             <li className="mb-5 ml-4" key={index}>
               <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>

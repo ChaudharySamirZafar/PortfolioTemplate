@@ -1,0 +1,156 @@
+{
+  "projects": [
+    {
+      "title": "Codenemy",
+      "date": "07-31-2023",
+      "technologies": ["React", "Spring", "Docker", "Gitlab", "MySql"],
+      "summary": "The website, created as a final year project, offers a platform for coders to solve problems and improve their coding abilities in a simulated environment. With features such as real-time contests and access to a large database of coding problems, users can test their abilities and track their progress. The project also showcases the implementation of various commercial techniques and tools, such as automated testing for the backend, to ensure the accuracy and reliability of the platform. The use of a CI/CD pipeline for efficient deployment and TDD for a more efficient development process, combined with the employment of design patterns, results in a sophisticated and comprehensive platform for users to challenge themselves and develop their skills.",
+      "link": "https://www.codenemy.com/",
+      "imageName": "codenemy.png",
+      "typeOfProject": "Final Year - University Project",
+      "tags": ["Fullstack", "React", "Spring", "CI/CD", "TDD", "Microservices"],
+      "miniSummary": "A leetcode clone but allowing users to complete problems in real time against others",
+      "projectDescription": [
+        "Fullstack web application",
+        "Designed for coders to enhance their skills through problem-solving in a simulated environment",
+        "Introduced a player vs player competitive mode to algorithmic coding questions"
+      ],
+      "keyFeatures": [
+        "Real-time contests for users to participate in",
+        "Access to a vast database of coding problems",
+        "User progress tracking to monitor skill development"
+      ],
+      "technicalImplementation": [
+        "React - frontend",
+        "Springboot - backend",
+        "Microservices architecture used for the backend",
+        "Utilized CI/CD pipeline for efficient deployment and integration. Implemented automated testing for the backend to ensure accuracy and reliability",
+        "95% + code coverage to ensure code was robust",
+        "Employed Test-Driven Development (TDD) for efficient development",
+        "Jira integration with Gitlab to track ticket progress/history",
+        "Web sockets to host lobbies",
+        "In memory database for lobby data"
+      ],
+      "report": true
+    },
+    {
+      "title": "Explain My Code",
+      "date": "04-11-2023",
+      "technologies": ["React", "Spring", "Gitlab"],
+      "summary": "'Explain My Code' is an app aimed at helping beginners learn coding. The app allows users to enter code and receive explanations of it through the OpenAI API. It provides a user-friendly interface for learning and understanding code, making it a valuable tool for beginners to improve their coding skills.",
+      "link": "https://explainmycode.co.uk/",
+      "imageName": "emc.png",
+      "typeOfProject": "Personal Project",
+      "tags": ["Fullstack", "React", "Spring", "AI", "OpenAI", "ChatGPT"],
+      "miniSummary": "A application that acts as a repository for explanations of code.",
+      "projectDescription": [
+        "Fullstack web application",
+        "Educational app designed to assist beginners in learning coding",
+        "AI generated explanations to code snippets"
+      ],
+      "keyFeatures": [
+        "A large set of programming languages covered",
+        "Clear and concise explanations provided by AI",
+        "Option to save explanations and refer back to them in future"
+      ],
+      "technicalImplementation": [
+        "React - frontend",
+        "Springboot - backend",
+        "OpenAI API used to generate code explanations"
+      ],
+      "report": false
+    },
+    {
+      "title": "The Auction Room",
+      "date": "07-21-2022",
+      "technologies": ["Php", "JavaScript", "Github", "HTML5", "CSS3", "MySql"],
+      "summary": "Auction Room is a 24-hour online auction platform designed to host auctions for a wide range of products. Built with PHP, JavaScript, HTML, and CSS, this full-stack web application allows users to bid on items, view bidding history, and get real-time updates on the auction status. As the administrator, you can manage the auctions and monitor the bidding activity. This project was my first experience with full-stack development and was completed as part of my university studies. It required me to use my skills in web development to create a functional and user-friendly application. I am proud of my achievements on this project and am eager to continue growing my skills in web development.",
+      "link": "https://github.com/ChaudharySamirZafar/UniversityProjects/tree/main/U_TheAuctionRoom",
+      "imageName": "TAR.png",
+      "typeOfProject": "Second Year - University Project",
+      "tags": ["Fullstack", "PHP", "MVC"],
+      "miniSummary": "A application that allows user to participate in real time 24 hour auctions",
+      "projectDescription": [
+        "Fullstack web application",
+        "Created in my second year of university",
+        "Hosts an auction every 24 hours with real-time updates"
+      ],
+      "keyFeatures": [
+        "24 hour auctions held",
+        "Real time updates of bidding wars",
+        "Admin side developed to create, delete and change auctions & items."
+      ],
+      "technicalImplementation": [
+        "MVC Architecture",
+        "HTML/CSS - View Layer",
+        "PHP - Controller & Model Layer",
+        "AJAX for real-time updates",
+        "SQL Injection protection"
+      ],
+      "report": false
+    },
+    {
+      "title": "JavaFX Game",
+      "date": "07-31-2022",
+      "technologies": ["Java"],
+      "summary": "This project showcases my understanding of design patterns in game development. In my second year of university, I created a game as part of the Design Patterns module, where I learned about the different categories of design patterns: Structural, Creational, and Behavioural. I applied my knowledge by implementing the Singleton, Factory, MVC, and Object Pool patterns in the game, each of which is justified in a accompanying report. I am proud to have achieved a grade of 77% for this project, which showcases my skills in game development and my understanding of design patterns. This project demonstrates my ability to apply theoretical concepts to practical scenarios, making me a strong candidate for game development projects.",
+      "link": "https://github.com/ChaudharySamirZafar/UniversityProjects/tree/main/U_JavaFX-Game",
+      "imageName": "fx.png",
+      "typeOfProject": "Second Year - University Project",
+      "tags": [
+        "JavaFX",
+        "Design Patterns",
+        "Factory",
+        "Singleton",
+        "ObjectPool",
+        "MVC"
+      ],
+      "miniSummary": "A game developed using JavaFX implementing several design patterns",
+      "projectDescription": [
+        "JavaFX game",
+        "Created in my second year of university",
+        "Allows the user to control a player. When the player hits a checkpoints they have to play a space raiders game where they shoot the right answer"
+      ],
+      "keyFeatures": [
+        "2D Game",
+        "Control player using keyboard input",
+        "Science knowledge questions asked on space raider mini-game"
+      ],
+      "technicalImplementation": [
+        "Utilized multiple design patterns",
+        "Singleton used for the player object and graphics",
+        "ObjectPool used for bullets of a gun",
+        "Factory used to determine what graphics to render",
+        "MVC used to seperate responsbility"
+      ],
+      "benefits": [
+        "Provides a comprehensive platform for users to challenge themselves and improve their coding abilities.",
+        "Showcases your technical skills in web development, testing, and deployment.",
+        "Demonstrates your understanding of design patterns and best practices in software development."
+      ],
+      "report": true
+    },
+    {
+      "title": "To Do List",
+      "date": "07-31-2022",
+      "technologies": ["Java"],
+      "summary": "I created this application as part of a module in my second year of university. The project aimed to demonstrate my understanding of data structures and algorithms. I chose to implement the Array List data structure for storing and managing the tasks in the to-do list application. I successfully implemented the Array List, demonstrating my understanding of its performance and characteristics. The project received a score of 91%, highlighting my proficiency in data structures and algorithms.",
+      "link": "https://github.com/ChaudharySamirZafar/UniversityProjects/tree/main/U_ArrayList",
+      "imageName": "tdl.png",
+      "typeOfProject": "Second Year - University Project",
+      "tags": ["Java", "DSA", "ArrayList"],
+      "miniSummary": "An application created using a self-made variant of ArrayList",
+      "projectDescription": [
+        "Java application",
+        "Created in my second year of university",
+        "Created using a custom implemenation of ArrayList"
+      ],
+      "keyFeatures": ["Allows users to add, delete, edit and search tasks"],
+      "technicalImplementation": [
+        "Utilized conventional array to implement ArrayList",
+        "Had the choice of creating an Array List, Singly Linked List, Doubly Linked List and Queue"
+      ],
+      "report": true
+    }
+  ]
+}

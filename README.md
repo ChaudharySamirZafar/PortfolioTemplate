@@ -23,6 +23,8 @@ To change the data presented on the website, it's an easy process. So, I decided
 1. Navigate to the root directory of the application
 2. Navigate to /lib/data
 3. Change any data file in there and hit "CTRL + S" to see the changes on the application.
+4. The /public folder contains all images and documents for the website. An option to showcase University reports is available for all University projects. 
+Their "typeOfProject" property needs to include "University Project" at the end.
 
 ### Deployment
 Once you are happy with the changes you have made, it's time to deploy. I use Vercel to deploy my applications.

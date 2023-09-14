@@ -16,7 +16,7 @@ export default function Navbar() {
             <ClientSideRoute route="/">
               <Image
                 className="border-4 border-black dark:border-slate-500 drop-shadow-xl shadow-black rounded-full"
-                src={"/images/navbarpic.jpg"}
+                src={"/images/profilePic.png"}
                 width={100}
                 height={100}
                 alt="Samir Zafar"

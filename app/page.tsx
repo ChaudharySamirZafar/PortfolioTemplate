@@ -15,16 +15,10 @@ const Introduction = () => {
       <MyProfilePic />
       <h1 className="text-2xl font-semibold capitalize">About</h1>
       <p className="text-md font-medium">
-        Hello, I&apos;m Samir, I&apos;m currently a software engineer at{" "}
-        <a
-          className="font-semibold underline cursor-pointer"
-          href="https://www.booking.com"
-        >
-          booking
-        </a>
-        . This site is multi-purpose, I am aiming to upload blogs that help
-        fellow engineers out whilst also showing off my latest creations and
-        skills.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Nibh sed pulvinar
+        proin gravida hendrerit lectus. Diam maecenas sed enim ut sem viverra
+        aliquet eget. Ac felis donec et odio pellentesque diam volutpat.
       </p>
     </div>
   );

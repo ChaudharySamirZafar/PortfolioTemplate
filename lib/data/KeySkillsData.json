@@ -1,51 +1,61 @@
 {
   "skills": [
     {
-      "skill": "Programming experience with Java, C#, C++ using OOP & other key concepts.",
+      "skill": "Problem Solving",
       "indent": 0,
       "children": []
     },
     {
-      "skill": "A strong emphasis on maintainable & clean readable code.",
+      "skill": "Programming Languages",
       "indent": 0,
       "children": []
     },
     {
-      "skill": "Experience with Android Development",
+      "skill": "Data Structures",
       "indent": 0,
       "children": [
-        "Successfully implemented a Change App Icon feature into Capital One application.",
-        "Earned the mission Impossible award – “Releasing features on Android despite many problems”.\nThis feature was set out for the interns because my seniors thought it would be simple. This feature wasn’t a native feature on Android. So as the Android developer I faced a lot of challenges, but I still managed to complete this feature before the targeted code cut."
+        "Designed and implemented efficient data structures for a real-time gaming server",
+        "Optimized memory usage in a resource-constrained environment"
       ]
     },
     {
-      "skill": "Experience with full stack development",
+      "skill": "Web Development",
       "indent": 0,
       "children": [
-        "Created a competitive coding (player vs player) and algorithm-style question practise leetcode application using React.js, Springboot & MySql",
-        "Created a pipeline using GitLab to automate CI/CD & generate test reports.\nThis helped with feature development in my personal project. When I would create new pull requests the pull request would only be approvable once the pipeline is green. This helped me ensure the new code that I have just added is robust and doesn’t break any pre-existing code."
+        "Developed responsive web applications using HTML5, CSS3, and JavaScript",
+        "Integrated RESTful APIs for dynamic content"
       ]
     },
     {
-      "skill": "Experience with commercial level applications.",
+      "skill": "Machine Learning",
       "indent": 0,
       "children": [
-        "Worked with Lighthouse Systems web application that helps produce millions of products in manufacturing factories."
+        "Built a recommendation system using collaborative filtering techniques",
+        "Trained deep learning models for image classification tasks"
       ]
     },
     {
-      "skill": "Experience with AWS",
+      "skill": "Database Management",
       "indent": 0,
       "children": [
-        "Hosted a project on AWS & worked with the cloud service during my time at Capital One.",
-        "Services used – Lamba, EC2, S3 Bucket, API gateway, RDS."
+        "Designed and optimized relational database schemas for e-commerce platforms",
+        "Implemented database replication for high availability and fault tolerance"
       ]
     },
     {
-      "skill": "Test Driven Development",
+      "skill": "Cybersecurity",
       "indent": 0,
       "children": [
-        "Developed new features in Capital One & Lighthouse Systems using TDD."
+        "Conducted penetration testing to identify vulnerabilities in web applications",
+        "Developed a secure authentication system with multi-factor authentication (MFA)"
+      ]
+    },
+    {
+      "skill": "Cloud Computing",
+      "indent": 0,
+      "children": [
+        "Deployed scalable applications on AWS cloud infrastructure",
+        "Managed containerized applications with Kubernetes"
       ]
     }
   ]

@@ -2,7 +2,6 @@ type Project = {
   title: string;
   date: string;
   technologies: string[];
-  summary: string;
   link: string;
   imageName: string;
   typeOfProject: string;

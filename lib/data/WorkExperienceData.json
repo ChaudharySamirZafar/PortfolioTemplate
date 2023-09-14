@@ -1,61 +1,16 @@
 {
   "workExperience": [
     {
-      "employerName": "Booking.com",
-      "location": "Manchester UK",
-      "startDate": "September 2023",
-      "jobTitle": "Junior Software Engineer II, Full-time",
-      "keyPoints": []
-    },
-    {
-      "employerName": "The University Of Salford",
-      "location": "Salford, Manchester UK",
-      "startDate": "September 2022",
-      "jobTitle": "Academic Computer Science Tutor, Part-time",
+      "employerName": "Springfield Nuclear Power Plant",
+      "location": "Springfield, USA",
+      "startDate": "January 1989",
+      "endDate": "Present",
+      "jobTitle": "Safety Inspector",
       "keyPoints": [
-        {
-          "point": "Supported first year students learn and understand the fundamental computer science concepts in different modules. This included me helping them with assessments and workshop learning"
-        }
-      ]
-    },
-    {
-      "employerName": "Capital One",
-      "location": "Nottingham, UK",
-      "startDate": "June 2022",
-      "jobTitle": "Software Engineer, Internship",
-      "keyPoints": [
-        {
-          "point": "Developed a Change App Icon feature in the Android Application.\nThis feature offered the customers a chance to customise their Capital One mobile application. It also helped customers understand how diverse Capital One are as we included multiple icons such as Black history month, pride & many more."
-        },
-        {
-          "point": "Conducted Unit, Screenshot, Functional, Device, UI & Manual testing"
-        },
-        {
-          "point": "Developed a website using React.js & Cypress (testing framework)"
-        },
-        {
-          "point": "Worked within a team that used agile techniques."
-        }
-      ]
-    },
-    {
-      "employerName": "Infor",
-      "location": "Crawley, London UK",
-      "startDate": "July 2021",
-      "jobTitle": "Software Engineer, Internship",
-      "keyPoints": [
-        {
-          "point": "Worked with technologies such as - Entity Framework, .NET, .NET core, SqlServer, Oracle & MySql"
-        },
-        {
-          "point": "Regularly improved existing implementations through refactoring & modernisation.\nThe core functionality of the application relied on stored procedures, but this caused maintainability issues. If we had a customer that used SqlServer & another customer that uses Oracle, then we would have to define the stored procedures twice. So, I Migrated the core functionality of the system from stored procedures in SQL to Entity Framework in .NET core making the code more maintainable and centralized."
-        },
-        {
-          "point": "Reviewed code and conducted Unit, Integration, Acceptance & Regression testing."
-        },
-        {
-          "point": "Worked within a team that used agile techniques."
-        }
+        "Performed daily safety inspections at the nuclear power plant to ensure compliance with safety regulations.",
+        "Developed a unique approach to workplace safety, often involving bizarre and comical methods that somehow led to accident prevention.",
+        "Worked closely with colleagues, including Lenny and Carl, to address safety concerns and occasionally went on hilarious misadventures during lunch breaks.",
+        "Expert in the use of the 'Simpson Safety Dance' as a morale-boosting and safety-enhancing technique."
       ]
     }
   ]

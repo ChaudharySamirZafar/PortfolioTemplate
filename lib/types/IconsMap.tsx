@@ -26,5 +26,13 @@ iconsMap["CSS3"] =
   "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg";
 iconsMap["Java"] =
   "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg";
+iconsMap["Angular"] =
+  "https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg";
+iconsMap["Node.js"] =
+  "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg";
+iconsMap["MongoDB"] =
+  "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg";
+iconsMap["Express"] =
+  "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg";
 
 export default iconsMap;

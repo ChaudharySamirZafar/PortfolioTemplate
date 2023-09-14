@@ -44,11 +44,12 @@ const ProfileSection = () => {
       <div>
         <h1 className="text-xl font-semibold capitalize">Profile</h1>
         <p className="text-sm font-medium">
-          A software engineer with a passion for creating innovative and
-          creative software solutions. I am currently contributing towards
-          enterprise-level software and evolving my development, testing and
-          maintainability methodologies. I am continuously upgrading my skills
-          as a software engineer.
+          I'm a dedicated software engineer with a passion for crafting
+          innovative solutions. I thrive on contributing to enterprise-level
+          software projects, constantly refining my development, testing, and
+          maintainability approaches. Committed to lifelong learning, I'm always
+          leveling up my skills to stay at the cutting edge of software
+          engineering.
         </p>
       </div>
     </div>
@@ -161,7 +162,7 @@ const WorkExperience = () => {
                 {element.keyPoints?.map((element, index) => {
                   return (
                     <li className="text-sm whitespace-pre-wrap" key={index}>
-                      {element.point}
+                      {element}
                     </li>
                   );
                 })}

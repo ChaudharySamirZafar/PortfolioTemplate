@@ -9,6 +9,7 @@ To change the data presented on the website, it's an easy process. So, I decided
 3. Git - [Download Here](https://git-scm.com/downloads)
 
 ## Running the application
+I am assuming you have basic experience with Git & React/Next.js. If you encounter any problems please reach out to me [Here](https://discord.gg/kx8CK5As).
 ### Installation
 1. Clone the repo - ```git clone https://github.com/ChaudharySamirZafar/PortfolioTemplate```
 2. Navigate to the project directory and open the directory in visual studio code
@@ -25,6 +26,21 @@ To change the data presented on the website, it's an easy process. So, I decided
 3. Change any data file in there and hit "CTRL + S" to see the changes on the application.
 4. The /public folder contains all images and documents for the website. An option to showcase University reports is available for all University projects. 
 Their "typeOfProject" property needs to include "University Project" at the end.
+
+The **/lib/types** contains something called an IconsMap. The IconsMap maps a Technology name i.e. React to a url, the url being a logo of React. <br />
+To add a technology that doesn't exist already you will have to add an entry in here. Below is an example of adding the React logo. <br />
+Check [this github repository](https://github.com/devicons/devicon/tree/master/icons) to see if they have the appropiate logo you want. <br />
+``` 
+iconsMap["React"] =
+  "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg";
+```
+Now, if I wanted to also add springboot, I would check [this github repository](https://github.com/devicons/devicon/tree/master/icons) to see if they have spring. <br />
+As they do, I would create the entry. <br />
+```
+iconsMap["Spring"] =
+  "https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg";
+```
+**note:** the url always start with ```https://raw.githubusercontent.com/devicons/devicon/master/icons/``` and you don't have to use this repository for logo but I found them to be the best quality. 
 
 ### Deployment
 Once you are happy with the changes you have made, it's time to deploy. I use Vercel to deploy my applications.
